@@ -1,0 +1,21 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <!--<item name="android:navigationBarColor">@color/navBarColor</item>
+    <item name="android:colorPrimaryDark">@color/transparent</item>-->
+  </style>
+
+  <style name="SearchTheme" parent="Theme.AppCompat.NoActionBar">
+    <!-- Customize your theme here. -->
+
+    <!-- enable window content transitions -->
+    <item name="android:windowContentTransitions">true</item>
+
+
+    <item name="android:windowBackground">@color/search_view_bg</item>
+    <item name="android:colorPrimaryDark">@color/search_view_status</item>
+  </style>
+
+</resources>
